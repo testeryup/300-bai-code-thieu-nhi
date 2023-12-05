@@ -19,7 +19,8 @@ int main(){
             sum -= a[l];
             ++l;            
         }
-        ans = r - l + 1; // sao lai khong phai la ans = max(ans, r - l + 1) nhi ? HMM
+        ans = max(r - l + 1, ans);
+        
     }
     cout << ans;
     return 0;
