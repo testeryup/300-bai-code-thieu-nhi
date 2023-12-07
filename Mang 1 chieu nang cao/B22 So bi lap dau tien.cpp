@@ -13,7 +13,7 @@ using ll = long long;
 int main(){
     int n; cin >> n;
     int a[n];
-    for(int &x : a) cin >> x;
+    for(const int &x : a) cin >> x;
     // bool isLooped = false;
     unordered_map<int, int> mp;
     for(const int &x : a){
