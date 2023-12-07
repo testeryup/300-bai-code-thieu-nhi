@@ -20,7 +20,9 @@ int main(){
     int ans = 0;
     for(int i = 1; i < n; ++i){
         if(a[i] < a[i - 1]){
-            ans += (a[i - 1] + 1 - a[i]);
+            int d = a[i - 1] + 1 - a[i];
+            ans += d;
+            a[i] = a[i-1] + 1;
         }
     }
     cout << ans;
