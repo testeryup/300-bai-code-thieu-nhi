@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 {
     int n, m; cin >> n >> m;
     vector<int> a(n);
-    vector<int> b(n);
+    vector<int> b(m);
 
     for(auto &x : a) cin >> x;
     for(auto &x : b) cin >> x;
