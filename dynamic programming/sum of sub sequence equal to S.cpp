@@ -29,3 +29,7 @@ int main() {
     }
     return 0;
 }
+
+/*
+    Sử dụng phương pháp quy hoạch động để kiểm tra xem có dãy con nào có tổng bằng S hay không. Sử dụng mảng dp trong đó dp[j] là true nếu có dãy con có tổng bằng j.
+*/
